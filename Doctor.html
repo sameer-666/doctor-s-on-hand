@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor's on Hand</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Doctor's on Hand</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#booking">Book Appointment</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to Doctor's on Hand</h2>
+        <p>Your health, our priority. Find the best doctors and medical assistance at your fingertips.</p>
+        <img src="images/doctor_consultation.jpg" alt="Doctor Consultation">
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Doctor's on Hand is a platform connecting patients with qualified doctors for consultations and medical advice.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Online Consultation with certified doctors</li>
+            <li>24/7 Emergency Assistance for urgent needs</li>
+            <li>Prescription Management with digital records</li>
+            <li>Health Tips & Articles to keep you informed</li>
+        </ul>
+    </section>
+    
+    <section id="testimonials">
+        <h2>What Our Patients Say</h2>
+        <blockquote>"Doctor's on Hand has been a lifesaver! I received quick and professional medical advice when I needed it the most." - Sarah M.</blockquote>
+        <blockquote>"Great service! The online consultation saved me a trip to the hospital." - John D.</blockquote>
+    </section>
+    
+    <section id="login">
+        <h2>Login</h2>
+        <form>
+            <label for="login-email">Email:</label>
+            <input type="email" id="login-email" required>
+            
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+    </section>
+    
+    <section id="register">
+        <h2>Register</h2>
+        <form>
+            <label for="register-name">Name:</label>
+            <input type="text" id="register-name" required>
+            
+            <label for="register-email">Email:</label>
+            <input type="email" id="register-email" required>
+            
+            <label for="register-password">Password:</label>
+            <input type="password" id="register-password" required>
+            
+            <button type="submit">Register</button>
+        </form>
+    </section>
+    
+    <section id="booking">
+        <h2>Book an Appointment</h2>
+        <form>
+            <label for="patient-name">Full Name:</label>
+            <input type="text" id="patient-name" required>
+            
+            <label for="appointment-date">Date:</label>
+            <input type="date" id="appointment-date" required>
+            
+            <label for="doctor-select">Choose Doctor:</label>
+            <select id="doctor-select" required>
+                <option value="dr-smith">Dr. Smith</option>
+                <option value="dr-jones">Dr. Jones</option>
+                <option value="dr-williams">Dr. Williams</option>
+            </select>
+            
+            <button type="submit">Book Appointment</button>
+        </form>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Doctor's on Hand. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
